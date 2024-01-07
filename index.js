@@ -125,7 +125,7 @@ bot.on('photo', async (msg) => {
 
 // start
 bot.onText(/\/start/, async (msg) => {
-  let response = `{strtImg} I am ${botName}
+  let response = `${strtImg} I am ${botName}
 
 Please send a link to the video or post you want to download, the bot only supports social media on the list
 
