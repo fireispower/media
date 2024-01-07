@@ -82,7 +82,7 @@ let bot = new TelegramBot(token, {
 })
 // Bot Settings
 let botName = 'Nezuko Social Bot';
-let strtImg = '[Hello](https://telegra.ph/file/2a8da5333524a11964b64.jpg)';
+
 app.get('/', async (req, res) => {
   res.send({
     Status: "Active"
