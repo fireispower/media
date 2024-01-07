@@ -82,7 +82,7 @@ let bot = new TelegramBot(token, {
 })
 // Bot Settings
 let botName = 'Nezuko Social Bot';
-let strtImg = '<img src="https://telegra.ph/file/2a8da5333524a11964b64.jpg" alt="Hello">'
+let strtImg = '<img src="https://telegra.ph/file/2a8da5333524a11964b64.jpg" alt="Hello">';
 app.get('/', async (req, res) => {
   res.send({
     Status: "Active"
@@ -125,7 +125,7 @@ bot.on('photo', async (msg) => {
 
 // start
 bot.onText(/\/start/, async (msg) => {
-  let response = `[Hello](buttonurl:https://telegra.ph/file/2a8da5333524a11964b64.jpg) I am ${botName}
+  let response = `{strtImg} I am ${botName}
 
 Please send a link to the video or post you want to download, the bot only supports social media on the list
 
