@@ -124,12 +124,8 @@ bot.on('photo', async (msg) => {
 
 // start
 bot.onText(/\/start/, async (msg) => {
-  let response = `Hello I am ${botName}
+  let response = `<a href="https://telegra.ph/file/2a8da5333524a11964b64.jpg">Hello</a> I am ${botName}
 
-[Indonesia]
-Silahkan kirim link video atau postingan yang mau didownload, bot hanya support pada sosial media pada list
-
-[English]
 Please send a link to the video or post you want to download, the bot only supports social media on the list
 
 LIST :
@@ -141,6 +137,7 @@ LIST :
 • Pinterest
 • Spotify
 • Github
+• YouTube
 
 
 OTHER FEATURES
@@ -149,10 +146,6 @@ OTHER FEATURES
 /pin (Searching Pinterest)
 /google (Searching Google)
 
-[Indonesia]
-Kirim gambar, jika ingin menggunakan ocr (ekstrak teks pada gambar), remini (buat gambar jadi hd), telegraf (unggah ke telegraf), dan pomf2 (unggah ke pomf2)
-
-[English]
 Send images, if you want to use ocr (extract text on image), remini (upscale resolution), telegraph (upload to telegraph), and pomf2 (upload to pomf2)
 
 Bot by @Krxuvv`
